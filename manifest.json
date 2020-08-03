@@ -1,0 +1,15 @@
+{
+  "name": "Tell me a Joke",
+  "version": "0.0.0.1",
+  "manifest_version": 2,
+  "description": "A chromium extension to make your day better with jokes",
+  "icons": {
+    "16": "/images/header.webp",
+    "32": "/images/header.webp",
+    "48": "/images/header.webp",
+    "128": "/images/header.webp"
+  },
+  "browser_action": {
+    "default_popup": "popup/popup.html"
+  }
+}

@@ -1,0 +1,56 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="../js/popup.js"></script>
+    <link rel="stylesheet" href="../css/popup.css">
+    <title>Tell me a joke</title>
+  </head>
+  <body>
+    <div>
+      <img src="/images/header.webp" alt="stars" width="200" height="200" />
+    </div>
+
+      <div>
+        <label for="card-types">Select the joke type:</label><br>
+        <select name="card-type" id="card-type">
+          <option value="default">---</option>
+          <option value="Random">Random</option>
+          <option value="Programming">Programming</option>
+          <option value="Dark">Dark</option>
+          <option value="Pun">Pun</option>
+          <option value="Miscellaneous">Miscellaneous</option>
+        </select>
+      </div>
+
+      <br><br>
+      <div>
+        <label for="joke-parts">Select the number of joke parts:</label><br>
+          <select name="joke-part" id="joke-part">
+            <option value="default">---</option>
+            <option value="single">Single</option>
+            <option value="twopart">Two part</option>
+          </select>
+      </div>
+
+      <br><br>
+      <div class="row">
+        <div class="col-xs-12">
+          <button id="submitBtn" class="btn btn-success btn-lg btn-block" type="submit">Tell me the joke!</button>
+        </div>
+      </div>
+
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content" id ="modal-content">
+      <span class="close">&times;</span>
+      <p>Joke</p>
+    </div>
+
+  </div>
+
+
+  </body>
+</html>
